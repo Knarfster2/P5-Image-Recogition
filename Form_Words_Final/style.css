@@ -1,0 +1,60 @@
+html, body {
+  margin: auto;
+  padding: 0;
+  color:white;
+  height: 2500px;
+background-color: #1D1C1D;
+  font-family:'Helvetica';
+}
+body{
+   
+  display: flex;
+  flex-direction:column;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  
+}
+h1{
+  font-size:30pt;
+  
+}
+img{
+  height:20%;
+}
+p{
+  font-size:18px;
+  width:40%;
+}
+
+.poster-image:hover{
+  height:50%;
+}
+
+
+
+
+.sources{
+  color:grey;
+  text-decoration:none;
+}
+
+.sources:hover{
+  color:red;
+}
+
+
+
+canvas {
+  margin-top:75px;
+  height:100%;
+  
+}
+
+footer {
+    color: red;
+
+  
+
+}
+ 

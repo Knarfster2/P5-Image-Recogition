@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+     <script src="ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <script>
+  if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+  }
+  </script>
+    
+  </head>
+  <body>
+    <h1>Creative Code Final Project</h1>
+    <h2>Frank Pizzuta's Image Recognition</h2>
+    <script src="vehicle.js"></script>
+    <script src="sketch.js"></script>
+    <p>This project will recognize an apple or phone when held up to your webcam. It utilizes ML5's image identification code, as well as local storage to make it happen. It took a lot of Dan Schiffman tutorials, random forum threads, and a lot of time, this project was made. The image identification turned out to be something that was way too strenuous on one browser window, so I went searching for a solution. This was where I came across using local storage in order to allow two Chrome tabs to speak to one another. I then assigned the specific objects for the identifier to look for certain values, apple is one for instance. Then with the addition of a single line of code the two browser tabs are able to communicate and stop the browser from freezing. The physical dots were a bit more challenging to generate, but the base component is based on Dan Schiffman’s tutorial linked below. In his tutorial, he generates a field of dots that then flow into the word train. I then took this, and integrated it with the image identification from the other tab, and with a great deal of trial and error, it finally worked. That is the extremely abridged explanation to this project, I hope you enjoy it! <a class="sources" href="https://youtu.be/-t1eyMUnZao" target="_blank"> Play Test Video</a></p>
+    
+    <p><a class="sources" href="https://kucdinteractive.com/fpizzuta/creativecode/rollover/" target="_blank">Here</a> is an additional test of some Creative Code that more closely resembles the original sketch, once I had finished this, I decided to pursue another design. It is a little slower to load, so just give it a moment.</p>
+
+    
+    <h2>How to Use</h2>
+    <ol>
+    <li>Add https:// to the start of this webpage to ensure it will work.</li>
+    <li>Open <a class="sources" href="https://kucdinteractive.com/fpizzuta/creativecode/Image_Detection_Final/" target="_blank">this process</a> in another tab and run it, make sure to leave it open.</li>
+    <li>Hold either an apple or phone (can be a picture) up to your webcam and see the dots move.</li>
+    <li>Also if you want to have some fun, move your mouse through all the dots and see them flee.</li>
+    <li>Now recognizing apples, phones, and cups!</li>
+  </ol>
+    <h2>Progress</h2>
+    <img class="poster-image" src="Poster-Idea2.jpg">
+    <h2>Sources</h2>
+    <a class="sources" href="https://thecodingtrain.com/Tutorials/" target="_blank">Dan Schiffman</a>
+    <a class="sources" href="https://blog.bitsrc.io/4-ways-to-communicate-across-browser-tabs-in-realtime-e4f5f6cbedca" target="_blank">Local Storage</a>
+     <a class="sources" href="https://learn.ml5js.org/#/reference/object-detector" target="_blank">Webcam Detection</a>
+    
+  
+
+
+</body></html>
